@@ -1,4 +1,6 @@
 steps:
+options:
+  logging: CLOUD_LOGGING_ONLY
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   args:
   - gcloud
@@ -9,4 +11,4 @@ steps:
   - --source=.
   - --trigger-http
   - --runtime=Python 3.11
-   logging: CLOUD_LOGGING_ONLY
+  

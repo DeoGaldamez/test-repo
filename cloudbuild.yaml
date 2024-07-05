@@ -9,3 +9,4 @@ steps:
   - --source=.
   - --trigger-http
   - --runtime=Python 3.11
+   logging: CLOUD_LOGGING_ONLY

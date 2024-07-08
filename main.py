@@ -19,5 +19,5 @@ def hello_http(request):
     elif request_args and 'name' in request_args:
         name = request_args['name']
     else:
-        name = 'Deonel :D, funcionno la repo manual por CLI!!!'
+        name = 'Deo :D, funcionno la repo manual por CLI!!!'
     return 'Hellooooooooooo {}!'.format(name)
